@@ -53,16 +53,16 @@ Create a .env file in the project root and add the required API key as mentioned
 streamlit run app.py
 ```
 ## Usage
--The Streamlit application opens in your default web browser.
--Employee information is displayed in the sidebar for context.
--Type your questions in the chat input field.
--The assistant provides real-time responses, using:
--Employee-specific data for personalization.
--Policy documents from the vector store for accurate answers.
--Employee data and chat history are cached during the session for consistent responses.
+1. The Streamlit application opens in your default web browser.
+2. Employee information is displayed in the sidebar for context.
+3. Type your questions in the chat input field.
+4. The assistant provides real-time responses, using:
+5. Employee-specific data for personalization.
+6. Policy documents from the vector store for accurate answers.
+7. Employee data and chat history are cached during the session for consistent responses.
 
 ## Notes
--Make sure umbrella_corp_policies.pdf is present in the data/ directory.
--The chatbot uses LangChain to manage prompts, retrieval, and language model interactions.
--Streamlit session state is used to store employee data and chat history for the session.
--You can replace the LLM or embeddings provider as needed for customization.
+1. Make sure umbrella_corp_policies.pdf is present in the data/ directory.
+2. The chatbot uses LangChain to manage prompts, retrieval, and language model interactions.
+3. Streamlit session state is used to store employee data and chat history for the session.
+4. You can replace the LLM or embeddings provider as needed for customization.
