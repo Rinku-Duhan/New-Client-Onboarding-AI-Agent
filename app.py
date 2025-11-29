@@ -1,3 +1,15 @@
+
+
+import streamlit as st
+import os
+
+# --- BRIDGE: Load Secrets into Environment Variables ---
+# This loop manually loads the keys from Streamlit secrets
+# into the system environment so libraries like LangChain 
+# can find them automatically.
+for key in st.secrets:
+    os.environ[key] = st.secrets[key]
+
 #Use this part if you are using OPENAPI key and add the key in .env
 # from data.employees import generate_employee_data
 # from dotenv import load_dotenv
