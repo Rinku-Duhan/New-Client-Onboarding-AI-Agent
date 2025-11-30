@@ -66,3 +66,5 @@ streamlit run app.py
 2. The chatbot uses LangChain to manage prompts, retrieval, and language model interactions.
 3. Streamlit session state is used to store employee data and chat history for the session.
 4. You can replace the LLM or embeddings provider as needed for customization.
+
+   
