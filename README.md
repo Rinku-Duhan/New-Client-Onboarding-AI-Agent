@@ -68,3 +68,7 @@ streamlit run app.py
 4. You can replace the LLM or embeddings provider as needed for customization.
 
    
+
+https://github.com/user-attachments/assets/32e6aa28-f83d-4150-800a-04c7af75ff73
+
+
